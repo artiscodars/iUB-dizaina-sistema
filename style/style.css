@@ -11832,6 +11832,7 @@ img {
 }
 
 .banner {
+  margin-top: 20px;
   background: #012169;
   padding: 50px;
   text-align: center;

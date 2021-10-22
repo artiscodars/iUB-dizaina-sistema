@@ -3,7 +3,7 @@
 $title = "Ievads";
 
 include 'includes/header.php'; ?>
-
+<div class="content">
 <div class="container">
     <div class="row">
         <div class="col">
@@ -61,7 +61,7 @@ include 'includes/header.php'; ?>
 
 <h2  class="mt-5">Lejupielādes</h2>
 
-<p>Dizaina sistēma ir pieejama lejupielādei <a href="https://github.com/igstudija/iub-dizaina-sistema">GutHub</a>.</p>
+<p>Dizaina sistēma ir pieejama lejupielādei <a href="https://github.com/igstudija/iUB-dizaina-sistema">GutHub</a>.</p>
 
 
 <h5 class="mt-5">Dizaina sistēmas izstrādātājs:</h5>
@@ -71,5 +71,5 @@ include 'includes/header.php'; ?>
         </div>
     </div>
 </div>
-
+</div>
 <?php include 'includes/footer.php'; ?>

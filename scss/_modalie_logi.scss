@@ -1,0 +1,14 @@
+// main: style.scss
+
+.modal-header {
+  .btn-close {
+
+    border-radius: 50%;
+
+    &:hover {
+      background: $gaisi-peleks escape-svg($btn-close-bg) center / $btn-close-width auto no-repeat;
+
+    }
+
+  }
+}

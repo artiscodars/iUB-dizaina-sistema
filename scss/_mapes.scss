@@ -1,0 +1,26 @@
+// main: style.scss
+.nav-tabs {
+    .nav-link {
+        &.active {
+            border: 0;
+            position: relative;
+            &::after {
+                content: "";
+                position: absolute;
+                bottom: -1px;
+                left: 0;
+                height: 5px;
+                width: 100%;
+                background: $tonis;
+            }
+        }
+
+        &:hover {
+          border-color: $gaisi-peleks;
+          background: $gaisi-peleks
+        }
+    }
+}
+.tab-pane {
+    padding: 15px;
+}

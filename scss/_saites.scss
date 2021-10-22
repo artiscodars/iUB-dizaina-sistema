@@ -1,0 +1,11 @@
+// main: style.scss
+
+a {
+    color: $tonis;
+    text-decoration: none;
+}
+
+a:hover {
+    color: $tonis;
+    text-decoration: underline;
+}

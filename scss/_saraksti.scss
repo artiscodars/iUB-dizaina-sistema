@@ -1,0 +1,35 @@
+// main: style.scss
+
+.list-group {
+
+    .list-group-item {
+        border-radius: 2px;
+    }
+
+    &.list-group-with-sidebar {
+
+        .list-group-item {
+            padding-right: 65px;
+            position: relative;
+        }
+
+        .list-group-item-sidebar {
+            position: absolute;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            width: 49px;
+            border-left: 1px solid #ccc;
+
+            .btn {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                border-radius: 50%;
+            }
+
+        }
+
+    }
+}

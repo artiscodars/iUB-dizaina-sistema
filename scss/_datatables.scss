@@ -1,0 +1,49 @@
+// main: style.scss
+
+.dataTables_wrapper {
+  margin-top: 15px;
+
+  table {
+    background: #fff;
+
+    td,
+    th {
+      padding: 10px;
+      vertical-align: middle;
+    }
+
+    th {
+      background-color: $tonis-b;
+      border-bottom: 1px solid $tonis-a;
+    }
+  }
+
+  .pagination {
+    .page-item {
+      a.page-link {
+        background: #fff;
+      }
+
+      &.active {
+        a.page-link {
+          background: $tonis;
+        }
+      }
+
+      &.next,
+      &.previous {
+        a.page-link {
+          background: transparent;
+        }
+      }
+    }
+  }
+
+  #kontaktpunkti {
+    tr {
+      th:last-child {
+        width: 100px;
+      }
+    }
+  }
+}

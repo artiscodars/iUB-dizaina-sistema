@@ -1,0 +1,69 @@
+// main: style.scss
+
+.btn-success,
+.btn-success:disabled,
+.btn-success:hover,
+.btn-success:focus,
+.btn-outline-success:hover,
+.btn-danger,
+.btn-danger:disabled,
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-outline-danger:hover,
+.btn-warning,
+.btn-warning:disabled,
+.btn-warning:hover,
+.btn-warning:focus,
+.btn-outline-warning:hover,
+.btn-info,
+.btn-info:disabled,
+.btn-info:hover,
+.btn-info:focus,
+.btn-outline-info:hover {
+    color: #fff;
+}
+
+.btn-outline-light {
+    border-color: $gaisi-peleks;
+    color: $tumsi-peleks;
+}
+
+
+
+
+    .btn-cancel {
+
+        padding: 4px 40px 5px 15px;
+        position: relative;
+
+        border-radius: 50px;
+        color:#fff;
+
+        span {
+            display: block;
+            position: absolute;
+            cursor: pointer;
+            top:0;
+            right: 0;
+            padding: 5px 10px;
+            text-align: center;
+            border-radius: 50%;
+
+            &:hover {
+              i {
+                opacity: 0.8
+              }
+            }
+        }
+
+
+        &.btn-cancel-sm {
+            padding: 2px 30px 3px 10px;
+            font-size: 0.9rem;
+
+            span {
+
+                padding: 3px 7px;
+}
+        }
+    }

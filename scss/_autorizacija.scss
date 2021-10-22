@@ -1,0 +1,59 @@
+// main: style.scss
+
+.authorisation {
+  h1 {
+    color: #000;
+    font-family: "Robusta Medium";
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  .logo {
+    padding-top: 60px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      width: 100px;
+      height: 45px;
+      background: $tonis;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    img {
+      margin: auto;
+      display: block;
+      width: 230px;
+      height: auto;
+      margin-bottom: 50px;
+    }
+  }
+
+  .form-signin {
+    padding-bottom: 100px;
+    margin: auto;
+    width: 400px;
+    text-align: center;
+    position: relative;
+
+    .btn {
+      margin-bottom: 30px;
+      font-size: 0.9rem; //cc
+
+      p {
+        margin-bottom: 0;
+      }
+    }
+
+    .form-floating {
+      margin-bottom: 15px;
+    }
+
+    .checkbox {
+      text-align: left;
+      padding-left: 13px;
+    }
+  }
+}

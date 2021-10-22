@@ -1,0 +1,46 @@
+// main: style.scss
+
+.pagination {
+    a {
+        display: inline-block;
+        min-width: 38px;
+        height: 38px;
+        line-height: 38px;
+        text-align: center;
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    span {
+        display: inline-block;
+        min-width: 38px;
+        height: 38px;
+        line-height: 38px;
+        text-align: center;
+    }
+    .page-link {
+        border-radius: 19px;
+        padding: 0 !important;
+        border: 0 !important;
+    }
+    .page-item {
+        margin-left: 5px;
+        margin-right: 5px;
+
+        a.page-link {
+            background: $gaisi-peleks;
+        }
+
+        &.active {
+            a.page-link {
+                background: $tonis;
+            }
+        }
+
+        &.disabled {
+            display: none;
+        }
+    }
+}
+//zz

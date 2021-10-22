@@ -1,0 +1,145 @@
+// main: style.scss
+//Palīgkrāsasa
+$peleks-500: #333333;
+$peleks-400: #9e9e9e;
+$peleks-300: #cccccc;
+$peleks-200: #f2f3f2;
+$peleks-100: #f9f9f9;
+$sudrabs: #e3e7f0; //Toņi
+//Primārās krāsas
+$tonis: #012169; //pamata  krāsa
+$tonis-a: #183A85;
+$tonis-b: #E9ECF4;
+
+.tonis {
+  color: $tonis;
+}
+
+.tonis-a {
+  color: $tonis-a;
+}
+
+.tonis-b {
+  color: $tonis-b;
+}
+
+.border-tonis {
+  border-color: $tonis !important;
+}
+
+.tonis-bg {
+  background: $tonis !important;
+  color: #fff;
+}
+//Palīgkrāsasa
+
+.tonis-peleks-500-bg {
+  background: $peleks-500 !important;
+  color: #fff;
+}
+
+.tonis-peleks-400-bg {
+  background: $peleks-400 !important;
+  color: #fff;
+}
+
+.tonis-peleks-300-bg {
+  background: $peleks-300 !important;
+}
+
+.tonis-peleks-200-bg {
+  background: $peleks-200 !important;
+}
+
+.tonis-peleks-100-bg {
+  background: $peleks-100 !important;
+}
+//Sekundārās krāsas
+$sarkans: #f26c4d;
+$zals: #22a862;
+$oranzs: #f99d35;
+$zils: #1825aa;
+$gaisi-peleks: #e6e7e8;
+$tumsi-peleks: #414042;
+
+.sarkans {
+  color: $sarkans;
+}
+
+.border-sarkans {
+  border-color: $sarkans !important;
+}
+
+.sarkans-bg {
+  background: $sarkans !important;
+  color: #fff;
+}
+
+.zals {
+  color: $zals;
+}
+
+.border-zals {
+  border-color: $zals !important;
+}
+
+.zals-bg {
+  background: $zals !important;
+  color: #fff;
+}
+
+.oranzs {
+  color: $oranzs;
+}
+
+.border-oranzs {
+  border-color: $oranzs !important;
+}
+
+.oranzs-bg {
+  background: $oranzs !important;
+  color: #fff;
+}
+
+.zils {
+  color: $zils;
+}
+
+.border-zils {
+  border-color: $zils !important;
+}
+
+.zils-bg {
+  background: $zils !important;
+  color: #fff;
+}
+
+.gaisi-peleks-bg {
+  background: $gaisi-peleks;
+}
+
+.border-gaisi-peleks {
+  border-color: $gaisi-peleks !important;
+}
+
+.tumsi-peleks {
+  color: $tumsi-peleks;
+}
+
+.tumsi-peleks-bg {
+  background: $tumsi-peleks !important;
+  color: #fff;
+}
+
+.border-tumsi-peleks {
+  border-color: $tumsi-peleks !important;
+}
+$primary: $tonis !default;
+$secondary: $tonis-a !default;
+$success: $zals;
+$danger: $sarkans;
+$warning: $oranzs;
+$info: $tonis;
+$light: $gaisi-peleks;
+$dark: $tumsi-peleks;
+$success-text: #fff;

@@ -1,0 +1,70 @@
+// main: style.scss
+
+.alert {
+  background-color: #fff;
+  border-radius: 0;
+  border-color: #eaeaea;
+  border-left-width: 0;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -1px;
+    bottom: -1px;
+    width: 5px;
+  }
+
+  a {
+    text-decoration: underline;
+  }
+}
+
+.alert-primary {
+  color: $tonis;
+
+  &::before {
+    background: $tonis;
+  }
+}
+
+.alert-secondary {
+  color: $tumsi-peleks;
+
+  &::before {
+    background: $tumsi-peleks;
+  }
+}
+
+.alert-success {
+  color: $zals;
+
+  &::before {
+    background: $zals;
+  }
+}
+
+.alert-danger {
+  color: $sarkans;
+
+  &::before {
+    background: $sarkans;
+  }
+}
+
+.alert-warning {
+  color: $oranzs;
+
+  &::before {
+    background: $oranzs;
+  }
+}
+
+.alert-info {
+  color: $tonis;
+
+  &::before {
+    background: $tonis;
+  }
+}

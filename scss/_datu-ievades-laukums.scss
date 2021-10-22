@@ -1,0 +1,16 @@
+// main: style.scss
+
+.drop_in_area {
+    background: $gaisi-peleks;
+    padding: 40px;
+    border: 2px dashed $tumsi-peleks;
+    border-radius: 3px;
+    text-align: center;
+    h3 {
+        margin-bottom: 15px;
+    }
+    button {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}

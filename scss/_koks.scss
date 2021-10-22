@@ -1,0 +1,83 @@
+// main: style.scss
+ul.koks {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    ul {
+        padding-left: 15px;
+    }
+
+    li {
+        padding: 7px;
+        padding-left: 0px;
+        display: block;
+        position: relative;
+
+        > a {
+            text-decoration: none;
+            &::before {
+                font-family: bootstrap-icons !important;
+                display: inline-block;
+                margin-right: 8px;
+            }
+
+            &.with-children {
+                &.folder {
+                    &::before {
+                        content: "\f3d8";
+                        transform: rotate(0);
+                    }
+                }
+
+                &.list {
+                    &::before {
+                        content: "\f282";
+                        transform: rotate(180deg);
+                        transition: 0.2s ease-in-out;
+                    }
+                }
+
+                &.collapsed {
+                    &.list {
+                        &::before {
+                            content: "\f282";
+                            transform: rotate(0deg);
+                            transition: 0.2s ease-in-out;
+                        }
+                    }
+
+                    &.folder {
+                        &::before {
+                            content: "\f3d7";
+                        }
+                    }
+                }
+            }
+
+            &.excel {
+                &::before {
+                    content: "\f367";
+                }
+            }
+
+            &.word {
+                &::before {
+                    content: "\f38c";
+                }
+            }
+
+            &.pdf {
+                &::before {
+                    content: "\f397";
+                }
+            }
+
+            &.csv {
+                &::before {
+                    content: "\f397";
+                }
+            }
+        }
+    }
+}

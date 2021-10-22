@@ -1,0 +1,113 @@
+// main: style.scss
+
+header {
+  position: fixed;
+  left: 250px;
+  top: 0;
+  right: 0;
+  z-index: 11;
+  height: 55px;
+  background: #fff;
+  padding-right: var(--bs-gutter-x, 1.5rem);
+  padding-left: var(--bs-gutter-x, 1.5rem);
+  border-bottom: 1px solid #eaeaea;
+  z-index: 11;
+
+  .app_title {
+    color: $tonis;
+    float: left;
+    line-height: 55px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+
+  .top_nav {
+    float: right;
+    line-height: 55px;
+
+    .account {
+      display: inline-block;
+      margin-left: 10px;
+
+      span {
+        background: $tonis;
+        color: #fff;
+        font-size: 16px;
+        display: block;
+        height: 35px;
+        width: 35px;
+        line-height: 35px;
+        border-radius: 50%;
+        text-align: center;
+      }
+    }
+
+    .top_nav_items {
+      i {
+        font-size: 16px;
+      }
+    }
+
+    .dots {
+      display: none;
+    }
+  }
+}
+@media (max-width: 1025px) {
+  header {
+    padding-left: 55px;
+    padding-right: 5px;
+    left: 0;
+    transition: all 0.4s ease 0s;
+
+    .app_title {
+      font-size: 16px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+
+      span {
+        display: none;
+      }
+    }
+
+    .top_nav {
+      margin-right: 0;
+
+      .top_nav_items {
+        display: none;
+      }
+
+      .dots {
+        display: inline-block;
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+.mini-menu {
+  header {
+    left: 50px;
+  }
+}
+
+.page_header {
+  height: 80px;
+  margin-bottom: 20px;
+  background: #fff;
+  padding-right: var(--bs-gutter-x, 1.5rem);
+  padding-left: var(--bs-gutter-x, 1.5rem);
+
+  .row {
+    height: 80px;
+
+    h1 {
+      margin: 0;
+      font-family: "Robusta Regular";
+      font-size: 1.2rem;
+      color: #000;
+    }
+  }
+}

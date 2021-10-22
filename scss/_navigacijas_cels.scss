@@ -1,0 +1,5 @@
+// main: style.scss
+.breadcrumb-item + .breadcrumb-item::before {
+    content: "\f285";
+    font-family: bootstrap-icons !important;
+}

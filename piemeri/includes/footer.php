@@ -3,6 +3,11 @@
 
 </div>
 
+
+<?php  include 'includes/modalais.php'; ?>
+
+
+
 <footer>
 
   © 2021 Iepirkumu uzraudzības birojs, Visas tiesības aizsargātas.
@@ -35,6 +40,13 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js"></script>
 <script type="text/javascript" src="https://cdn.datatables.net/v/bs5/jszip-2.5.0/dt-1.11.3/b-2.0.1/b-colvis-2.0.1/b-html5-2.0.1/datatables.min.js"></script>
+
+
+
+
+
+
+
 
 <script>
 
@@ -72,6 +84,19 @@ $(".mini-menu-button.unset-cookie").click(function(e) {
     //e.preventDefault();
     $(".has-children span.active").next().addClass("show");
 });
+
+
+
+$("#edit").click(function(e) {
+    //e.preventDefault();
+    $("body").toggleClass("show-edit");
+});
+
+$(".close").click(function(e) {
+    //e.preventDefault();
+    $("body").toggleClass("show-edit");
+});
+
 
 function setCookie(cname, cvalue, exdays) {
     var d = new Date();

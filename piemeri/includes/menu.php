@@ -10,6 +10,7 @@
 
             <ul id="iepirkumi" class="collapse <?php if ($parent == "iepirkumi" && ($_COOKIE['minimenu']=="off" || $_COOKIE['minimenu']=="")) { echo 'show'; } ?>" data-bs-parent="#menu">
                 <li><a class="nav <?php if ($saite == "/piemeri/publikaciju_saraksts.php") { echo "active"; } ?>" href="/piemeri/publikaciju_saraksts.php">Publikāciju saraksts</a></li>
+                <li><a class="nav <?php if ($saite == "/piemeri/pazinojums_par_ligumu.php") { echo "active"; } ?>" href="/piemeri/pazinojums_par_ligumu.php">Paziņojums par līgumu</a></li>
                 <li><a class="nav <?php if ($saite == "/piemeri/sadala.php") { echo "active"; } ?>" href="#">Sadaļa</a></li>
 
             </ul>

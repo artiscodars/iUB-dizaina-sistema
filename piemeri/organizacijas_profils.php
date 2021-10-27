@@ -1,6 +1,7 @@
 <?php
 $parent = "adminriki";
 $title = "Organizācijas profils";
+$slug = 'organizacijas-profils';
 
 include 'includes/header.php'; ?>
 
@@ -10,7 +11,7 @@ include 'includes/header.php'; ?>
 <div class="row g-0  align-items-center">
 
 <div class="col align-self-center"><h1><?php echo $title;?></h1></div>
-<div class="col text-end align-self-center"><a href="#" class="btn btn-primary">Labot</a></div>
+<div class="col text-end align-self-center"><a href="#" class="btn btn-primary" id="edit">Labot</a></div>
 
 </div>
 </div>
@@ -409,13 +410,7 @@ include 'includes/header.php'; ?>
 
 
 
-<div class="edit_window">
 
-<div class="edit_form">
-...
-</div>
-
-</div>
 
 
 

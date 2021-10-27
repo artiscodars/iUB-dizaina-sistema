@@ -11105,11 +11105,6 @@ p {
   bottom: 0;
 }
 
-.formholder {
-  overflow: auto;
-  height: 100%;
-}
-
 ul.koks {
   list-style: none;
   margin: 0;
@@ -11263,6 +11258,12 @@ ul.koks li > a.csv::before {
   transition-delay: 0.5s;
 }
 
+@media (max-width: 768px) {
+  .edit_window .edit_form {
+    width: 100%;
+  }
+}
+
 .edit_window .edit_form .title {
   padding: 20px;
   border-bottom: 1px solid #eaeaea;
@@ -11321,13 +11322,19 @@ ul.koks li > a.csv::before {
 
 .edit_window .form-content {
   position: absolute;
-  top: 91px;
-  bottom: 107px;
-  left: 20px;
-  right: 20px;
+  top: 71px;
+  bottom: 79px;
+  left: 0;
+  right: 0;
 }
 
-.edit_window .modal-footer {
+.edit_window .form-content .formholder {
+  overflow: auto;
+  height: 100%;
+  padding: 20px;
+}
+
+.edit_window .form-footer {
   padding: 20px;
   border-top: 1px solid #eaeaea;
   position: absolute;
@@ -11362,7 +11369,6 @@ ul.koks li > a.csv::before {
 }
 
 .show-edit .edit_window .edit_form {
-  width: 80%;
   right: 0;
   height: 100%;
   background: #fff;

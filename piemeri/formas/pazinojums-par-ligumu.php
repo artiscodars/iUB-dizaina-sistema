@@ -1,6 +1,6 @@
 
 
-<div class="row form">
+<div class="row form g-0">
 
 
 <div class="col formholder">
@@ -38,7 +38,7 @@
         </label>
         </div>
 
-        <div class="mb-3 w-25">
+        <div class="mb-3 w-100 w-mb-25">
         <label class="form-label">Paziņojuma valoda *</label>
         <select class="form-select w-20" aria-label="Default select example">
         <option selected="">Izvēlies vērtību</option>
@@ -72,12 +72,12 @@
         </select>
       </div>
 
-      <div class="mb-3 w-50">
+      <div class="mb-3 w-mb-50">
       <label for="exampleFormControlInput1" class="form-label">Pasūtītāja  e-pasta kontaktadrese *</label>
       <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="vards@domeins.com">
       </div>
 
-      <div class="mb-3 w-50">
+      <div class="mb-3 w-mb-50">
       <label for="exampleFormControlInpu2" class="form-label">Pasūtītāja kontakttālruņa numurs * </label>
       <input type="tel" class="form-control" id="exampleFormControlInpu2" placeholder="+371 XXXXXXXX">
       </div>
@@ -161,7 +161,7 @@
       </div>
 
 
-      <div class="mb-3 w-25">
+      <div class="mb-3 w-100 w-mb-25">
       <label for="exampleFormControlInput1" class="form-label">Vispārīgās vienošanās dalībnieku maksimālais skaits * </label>
       <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
       </div>
@@ -275,7 +275,7 @@
 </div>
 
 
-<div class="col-md-4">
+<div class="col-md-4 d-none d-sm-block p-3">
 
 <div class="infoblock">
 

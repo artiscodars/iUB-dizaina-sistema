@@ -87,6 +87,9 @@
     right: -100%;
     transition: all 0.4s ease 0s;
     transition-delay: 0.5s;
+    @media(max-width: 768px) {
+      width: 100%;
+    }
 
     .title {
       padding: 20px;
@@ -147,13 +150,19 @@
 
   .form-content {
     position: absolute;
-    top: 91px;
-    bottom: 107px;
-    left: 20px;
-    right: 20px;
+    top: 71px;
+    bottom: 79px;
+    left: 0;
+    right: 0;
+
+    .formholder {
+      overflow: auto;
+      height: 100%;
+      padding: 20px;
+    }
   }
 
-  .modal-footer {
+  .form-footer {
     padding: 20px;
     border-top: 1px solid #eaeaea;
     position: absolute;
@@ -187,7 +196,6 @@
     }
 
     .edit_form {
-      width: 80%;
       right: 0;
       height: 100%;
       background: #fff;

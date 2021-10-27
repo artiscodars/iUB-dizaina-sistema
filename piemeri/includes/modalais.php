@@ -17,7 +17,7 @@
 include './formas/'.$slug.'.php'; ?>
 </div>
 
-<div class="modal-footer">
+<div class="form-footer text-start">
 
 <a href="#" class="btn btn-primary">Saglabāt</a>
 
